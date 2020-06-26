@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #313131;
+    font-family: sans-serif;
+}
+
+.side{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.side a{
+    background: #ffbe76;
+    color: white;
+    font-size: 22px;
+    display: block;
+    width: 120px;
+    padding: 12px;
+    text-decoration: none;
+    margin: 10px 0;
+    border-radius: 0 8px 8px 0;
+    margin-left: -100px;
+    transition: 0.8s;
+}
+
+.side a:hover{
+    margin-left: 0;
+}
+
+.icon{
+    padding-top: 4px;
+    float: right;
+}
